@@ -12,6 +12,9 @@
   <div class="accueil">
    <a href="indexnewsvr.php"><img class="img" src="../Public/CSS/images/sectionvr.png" alt="section vr"></a>
    <a href="indexnwsflat.php"><img class="img" src="../Public/CSS/images/sectionflat.png" alt="section flat"></a>
-</div>
+  </div>
+      <footer>
+          <a href="contacts.php"><img  class ="footer" src="../Public/CSS/images/ATN..png" alt="contacts"></a>
+      </footer>
 </body>
 </html>
