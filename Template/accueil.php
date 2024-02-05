@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="../Public/CSS/style.css">
 </head>
 <body>
+
 <header><?php include('../Template/inc/bannière.php'); ?></header>
-<nav><?php include('../Template/inc/menu.php'); ?></nav>
+
   <div class="accueil">
-   <a href="indexnewsvr.php"><img class="img" src="../Public/CSS/images/sectionvr.png" alt="section vr"></a>
-   <a href="indexnwsflat.php"><img class="img" src="../Public/CSS/images/sectionflat.png" alt="section flat"></a>
+   <a class="img1" href="indexnewsvr.php"><img class="section" src="../Public/CSS/images/sectionvr.png" alt="section vr"></a>
+   <a class="img2" href="indexnwsflat.php"><img class="section" src="../Public/CSS/images/sectionflat.png" alt="section flat"></a>
   </div>
-      <footer>
-          <a href="contacts.php"><img  class ="footer" src="../Public/CSS/images/ATN..png" alt="contacts"></a>
-      </footer>
+
+  <footer><?php include('../Template/inc/footer.php'); ?></footer>
+
 </body>
 </html>
