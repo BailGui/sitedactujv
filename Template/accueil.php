@@ -21,26 +21,16 @@
 
         if (theWidth > 683) {
             document.getElementById("imgHere").src = "../Public/CSS/images/sectionvr.png";
-        }else{
-            document.getElementById("imgHere").src = "../Public/CSS/images/vrsmart.png";
-        }
-    }
-        displayScreenWidth();    
-    window.addEventListener('resize', displayScreenWidth);
-    </script>
-
-    <script>
-        function displayScreenWidth() {
-        let theWidth = window.innerWidth;
-        if (theWidth > 683) {
             document.getElementById("imgHere2").src = "../Public/CSS/images/sectionflat.png";
         }else{
+            document.getElementById("imgHere").src = "../Public/CSS/images/vrsmart.png";
             document.getElementById("imgHere2").src = "../Public/CSS/images/flatsmart.png";
         }
     }
         displayScreenWidth();    
     window.addEventListener('resize', displayScreenWidth);
     </script>
+
 
 <footer><?php include('../Template/inc/footer.php'); ?></footer>
 
