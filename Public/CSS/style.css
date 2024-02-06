@@ -5,6 +5,7 @@ header{
     margin-right: 20%;  
     margin-left: 20%;
     margin-bottom: 2%;
+   
  
 }
 
@@ -12,6 +13,7 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .section{
@@ -22,8 +24,9 @@ header{
 }
 
 .img2{
-    margin-top: 2%;
+    margin-top: 1%;
 }
+
 
 a .img1{
     width: 60%;
@@ -44,6 +47,22 @@ a .img2{
 
 body{
     background-color:rgb(205, 97, 97);
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2%;
+    margin-right: 20%;  
+    margin-left: 20%;
+    margin-bottom: 2%;
+    
+ 
+}
+
+#Copyright{
+    padding-top: 2%;
 }
 
 
