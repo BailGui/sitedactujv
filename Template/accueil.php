@@ -15,25 +15,8 @@
    <a class="img2" href="indexnwsflat.php"><img class="section" src="../Public/CSS/images/sectionflat.png" alt="section flat" id="imgHere2"></a>
   </div>
   
-  <script>
-        function displayScreenWidth() {
-        let theWidth = window.innerWidth;
-
-        if (theWidth > 683) {
-            document.getElementById("imgHere").src = "../Public/CSS/images/sectionvr.png";
-            document.getElementById("imgHere2").src = "../Public/CSS/images/sectionflat.png";
-        }else{
-            document.getElementById("imgHere").src = "../Public/CSS/images/vrsmart.png";
-            document.getElementById("imgHere2").src = "../Public/CSS/images/flatsmart.png";
-        }
-    }
-        displayScreenWidth();    
-    window.addEventListener('resize', displayScreenWidth);
-    </script>
-
-
 <footer><?php include('../Template/inc/footer.php'); ?></footer>
-
+<script src="CSS/js/responsive.js"></script>
 </body>
 </html>
 
