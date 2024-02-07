@@ -11,7 +11,7 @@
 <header><?php include('../Template/inc/bannière.php'); ?></header>
 
   <div class="accueil">
-   <a class="img1" href="indexnewsvr.php"><img class="section" src="../Public/CSS/images/sectionvr.png" alt="section vr" id="imgHere"></a>
+   <a class="img1" href="?p=idnewsvr"><img class="section" src="../Public/CSS/images/sectionvr.png" alt="section vr" id="imgHere"></a>
    <a class="img2" href="indexnwsflat.php"><img class="section" src="../Public/CSS/images/sectionflat.png" alt="section flat" id="imgHere2"></a>
   </div>
   

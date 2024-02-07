@@ -1,5 +1,5 @@
-const picture = document.getElementById("imgHere")
-const pictureTwo = document.getElementById("imgHere2")
+const picture = document.querySelector("#imgHere")
+const pictureTwo = document.querySelector("#imgHere2")
         
         
         function displayScreenWidth() {

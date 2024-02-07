@@ -6,7 +6,7 @@
     <title><?= $title ?></title>
     <link rel="stylesheet" href="../Public/CSS/style.css">
 </head>
-<body id='bodycompte'>
+<body id='bodycopyright'>
 <header><?php include('../Template/inc/bannière.php'); ?></header>
 <footer><?php include('../Template/inc/footer.php'); ?></footer>
 </body>
