@@ -9,7 +9,7 @@
 </div>
 
 <div>
-<a class="button" href="./"
+<a class="button" href="?p=compte"
         ><img src="../Public/CSS/images/Login.png" alt="Login" id="login"></a
       >
 </div>
