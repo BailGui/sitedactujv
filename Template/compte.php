@@ -8,16 +8,14 @@
 </head>
 <body id='bodycompte'>
 <header><?php include('../Template/inc/bannière.php'); ?></header>
-<fieldset>
+<fieldset class="form1">
         <form action="" id ="myForm">
-   
-            <div class="form1">
 
             <div><label class="pseudo"for="user_pseudo">Pseudo</label>                        
-            <input type="text" id="lenom" name="user_pseudo" required /></div> 
+            <input type="text" id="lepseudo" name="user_pseudo" required /></div> 
 
             <div><label class="mail"for="user_mail">Adresse mail</label>                        
-            <input type="text" id="lenom" name="user_mail" required /></div> 
+            <input type="text" id="lemail" name="user_mail" required /></div> 
        
             <div><label class="nom"for="user_name">Nom</label>                        
             <input type="text" id="lenom" name="user_name" required /></div>    
@@ -75,7 +73,7 @@
    </script>
    
    
-    </div>
+    
 <footer><?php include('../Template/inc/footer.php'); ?></footer>
 </body>
 </html>

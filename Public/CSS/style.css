@@ -67,52 +67,46 @@ footer{
     background-color:rgba(25, 38, 91, 1);
 }
 
+#bodycompte{
+    background-color: rgba(103, 190, 216, 1);
+}
+
+
 
 fieldset{
     border-style: none;
- 
-}
- 
-h2{
-    color: white;
-    margin-top: 0%;
-    margin-bottom: 0%;
-   
-}
- 
-.form1{
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-right: 0%;
-   
+ 
 }
  
-#lenom, #leprenom, #ddn, #password{
-    width: 600px;
-    height: 20px;
+
+#lepseudo, #lenom, #lemail, #leprenom, #ddn, #password{
+    width: 400px;
+    height: 25px;
     border-radius: 10px;
    
 }
  
-h1 {
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-top: 15%;
-    margin-right:354px;
-    font-size:x-large;
-}
+
  
 label{
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;  
+}
+
+input{
+    background-color: rgba(217, 217, 217, 1);
 }
  
 #subButton{
@@ -129,7 +123,14 @@ label{
     margin-right: 555px;
  
 }
- 
+
+.mail{
+     
+}
+
+.pseudo{
+
+}
 .prenom{
     margin-right: 540px;
 }
