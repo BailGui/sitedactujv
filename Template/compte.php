@@ -29,13 +29,13 @@
             <div><label class="mdp" for="user_mdp">Mot de passe</label>
                 <input type="text" id="password" name="user_mdp" required /></div>
                 <p id="mdpErreur"> </p>
-   
-          <input type="submit" value="S'inscrire" id="subButton">
+</fieldset>
+          <div class="sub"><input type="submit" value="S'inscrire" id="subButton"></div>
         </br>
  
     </form>
  
-</fieldset>
+
 <script>
     const myForm = document.getElementById("myForm");
     const subButton = document.getElementById("subButton");
