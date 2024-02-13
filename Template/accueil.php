@@ -15,7 +15,7 @@
    <a class="img2" href="indexnwsflat.php"><img class="section" src="../Public/CSS/images/sectionflat.png" alt="section flat" id="imgHere2"></a>
   </div>
   
-<footer><?php include('../Template/inc/footer.php'); ?></footer>
+<footer class='footacc'><?php include('../Template/inc/footer.php'); ?></footer>
 <script src="CSS/js/responsive.js"></script>
 </body>
 </html>

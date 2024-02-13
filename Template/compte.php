@@ -8,6 +8,8 @@
 </head>
 <body id='bodycompte'>
 <header><?php include('../Template/inc/bannière.php'); ?></header>
+
+<a class="linkCompte" href="">DEJA INSCRIT?</a>
 <fieldset class="form1">
         <form action="" id ="myForm">
 

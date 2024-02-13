@@ -1,7 +1,17 @@
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 header{
     display: flex;
     justify-content: space-between; 
-    margin-top: 2%;
+    margin-top: 3%;
     margin-right: 20%;  
     margin-left: 20%;
     margin-bottom: 2%;
@@ -55,11 +65,18 @@ footer{
     margin-right: 20%;  
     margin-left: 20%;
     margin-bottom: 2%;
-    
- 
 }
 
-#Copyright{
+.footacc{
+    display: flex;
+    justify-content: space-between; 
+   
+    margin-right: 20%;  
+    margin-left: 20%;
+   
+}
+
+#copyright{
     padding-top: 2%;
 }
 
@@ -71,10 +88,18 @@ footer{
     background-color: rgba(103, 190, 216, 1);
 }
 
+.linkCompte{
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+    font-family: "robotoregular";
+    font-size: small;
+    color: rgba(143, 1, 1, 0.87);
+    text-decoration: none;
+}
+
 fieldset{
     border-style: none;
-    margin-top: 9%;
-    margin-bottom: 2%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -92,12 +117,22 @@ fieldset{
 }
 
 #subButton{
-    height: 20px;
-    width: 150px;
-    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: "robotoregular";
+    font-size: small;
+   
 }
 
- 
+.sub{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+
+
 label{
     color: black;
     display: flex;
@@ -112,38 +147,41 @@ input{
     background-color: rgba(217, 217, 217, 1);
 }
  
-.sub{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 6%;
-}
-#subButton{
-    border-radius: 10px;
-  
-}
  
 .date{
-    margin-right: 475px;
+    margin-right: 480px;
+    font-family: "robotoregular";
+    font-size: small;
 }
  
 .nom{
     margin-right: 555px;
+    font-family: "robotoregular";
+    font-size: small;
  
 }
 
 .mail{
     margin-right: 510px;  
+    font-family: "robotoregular";
+    font-size: small;
 }
 
 .pseudo{
     margin-right: 545px;
+    font-family: "robotoregular";
+    font-size: small;
 }
 .prenom{
     margin-right: 540px;
+    font-family: "robotoregular";
+    font-size: small;
 }
  
 .mdp{
     margin-right: 505px;
+    font-family: "robotoregular";
+    font-size: small;
 }
 
 #mdpErreur{
